@@ -38,6 +38,29 @@ sudo update-alternatives --config java
 ```               
 </details>
 
+#  $${\color{magenta}Arch-Installation}$$
+```sh
+sudo pacman -Sy --needed git && git clone https://github.com/xiv3r/Burpsuite-Professional.git && cd Burpsuite-Professional && ./install.sh
+```
+## Run
+```sh
+burpsuitepro
+```
+<details><summary></summary>
+
+## Update
+> optional
+```
+cd && sudo rm -rf Burpsuite-Professional && git clone https://github.com/xiv3r/Burpsuite-Professional.git && cd Burpsuite-Professional && ./update.sh
+```
+ 
+## Java Version
+> Burp 2023.6.x requires Java 17, select it as the default runtime
+```
+sudo pacman -S --needed jre17-openjdk
+```
+</details>
+
 ## Setup Licenses
 
 <div align="center">
