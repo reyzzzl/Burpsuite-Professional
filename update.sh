@@ -11,7 +11,7 @@ else
   exit 1
 fi
 if [ ! -d Burpsuite-Professional ]; then
-  git clone https://github.com/xiv3r/Burpsuite-Professional.git
+  git clone https://github.com/reyzzzl/Burpsuite-Professional.git
 fi
 cd Burpsuite-Professional
 version=2023.6.1

@@ -40,7 +40,7 @@ sudo update-alternatives --config java
 
 #  $${\color{magenta}Arch-Installation}$$
 ```sh
-sudo pacman -Sy --needed git && git clone https://github.com/xiv3r/Burpsuite-Professional.git && cd Burpsuite-Professional && ./install.sh
+sudo pacman -Sy --needed git && git clone https://github.com/reyzzzl/Burpsuite-Professional.git && cd Burpsuite-Professional && ./install.sh
 ```
 ## Run
 ```sh
@@ -51,7 +51,7 @@ burpsuitepro
 ## Update
 > optional
 ```
-cd && sudo rm -rf Burpsuite-Professional && git clone https://github.com/xiv3r/Burpsuite-Professional.git && cd Burpsuite-Professional && ./update.sh
+cd && sudo rm -rf Burpsuite-Professional && git clone https://github.com/reyzzzl/Burpsuite-Professional.git && cd Burpsuite-Professional && ./update.sh
 ```
  
 ## Java Version
