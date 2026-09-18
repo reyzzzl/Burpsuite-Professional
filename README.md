@@ -70,6 +70,17 @@ https://github.com/xiv3r/Burpsuite-Professional/assets/117867334/c25831a4-68a2-4
  
 Note: Copy the license from loader to the burpsuite > manual activation > copy burpsuite request key to loader request >  copy response key to the burpsuite.
 
+## Manual Activation
+> offline, Burp never contacts a license server in this mode
+Note: the license key, the activation request and the activation response must each be pasted as one single line. If you copy them from a wrapped text box, join all lines first.
+```sh
+burpsuitepro
+```
+1. Paste the License from the keygen into Burp > Next
+2. Select `Manual activation` > Next
+3. Copy the Activation Request from Burp, join it into one line, paste it into the keygen Request box
+4. Copy the Activation Response from the keygen, join it into one line, paste it into Burp > Finish
+
 <br>
 
 ## Shortcut Launcher - (xfce)
